@@ -1,0 +1,1142 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    height: 100vh;
+}
+
+body{
+    min-width: 100%;
+    overflow-x: hidden;
+}
+
+nav{
+    background: #fff;
+    display: flex;
+    margin-left: 169px;
+}
+
+.icon{
+    margin-block: 24px;
+    display: none;
+}
+
+#logo img{
+    margin-block: 32px;
+}
+
+#links ul{
+    display: flex;
+    gap:32px;
+    margin-left: 58px;
+    margin-block: 36px;
+    list-style: none;
+}
+
+#links li a{
+    text-decoration: none;
+    color: #939CAA;
+    font-family: 'Space Mono';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+}
+
+#links li a:hover{
+    color: #FCB72B;
+}
+
+.getscootin-cta a{
+    width: 180px;
+    height: 53px;
+    background: #FCB72B;
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    font-family: 'Space Mono';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    text-decoration: none;
+    padding-inline: 36px;
+    margin-left: 511px;
+    margin-right: 165px;
+    margin-top: 22px;
+}
+
+.getscootin-cta a:hover{
+    background: #fff;
+    border:3px solid #FCB72B;
+    color: #FCB72B;
+}
+
+#main .overlay{
+    margin-top: 33px;
+    min-width: 100%;
+    height: 200px;
+    background-image:linear-gradient(rgba(47,59,89,0.75),rgba(47,59,89,0.75)),url(/Location/images/Bitmap\ 2.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    gap:695px;
+}
+
+.overlay h1{
+    width: 500px;
+    color: #FFF;
+    font-family: 'Space Mono';
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: -2.5px;
+    margin-left: 165px;
+}
+
+
+#map{
+    width: 100%;
+    max-width: 1110px;
+    height: 543px;
+    margin-left: 164px;
+    margin-right: 166px;
+    margin-top: 220px;
+    position: relative;
+}
+
+#map .bitmap{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.new-york{
+    position: absolute;
+    bottom: 383px;
+    left: 147px;
+    top: 71px;
+}
+
+.new-york .oval{
+   display: none;
+}
+
+.new-york h4{
+    color: #495567;
+    text-align: center;
+    font-family: 'Space Mono';
+    font-size: 24px;
+    padding-block: 24px;
+    padding-inline: 39px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -1.071px;
+    position: absolute;
+    bottom: 15px;
+}
+
+.london{
+    position: absolute;
+    bottom: 437px;
+    left: 393px;
+    top: 18px;
+}
+
+.london .oval{
+    display: none;
+ } 
+
+.london h4{
+    color: #495567;
+    text-align: center;
+    font-family: 'Space Mono';
+    font-size: 24px;
+    padding-block: 24px;
+    padding-inline: 53px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -1.071px;
+    position: absolute;
+    bottom: 15px;
+}
+
+.yokohama{
+    position: absolute;
+    bottom: 377px;
+    left: 856px;
+    top: 78px;
+}
+
+.yokohama .oval{
+    display: none;
+ }
+ 
+
+.yokohama h4{
+    color: #495567;
+    text-align: center;
+    font-family: 'Space Mono';
+    font-size: 24px;
+    padding-block: 24px;
+    padding-inline: 39px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -1.071px;
+    position: absolute;
+    bottom: 15px;
+}
+
+.jakarta{
+    position: absolute;
+    bottom: 204px;
+    left: 779px;
+    top: 251px;
+}
+
+.jakarta .oval{
+    display: none;
+ }
+ 
+
+.jakarta h4{
+    color: #495567;
+    text-align: center;
+    font-family: 'Space Mono';
+    font-size: 24px;
+    padding-block: 24px;
+    padding-inline: 53px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -1.071px;
+    position: absolute;
+    bottom: 15px;
+}
+
+#city{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+}
+
+#city h2{
+    color: #495567;
+    font-family: 'Space Mono';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2.143px;
+    width: 351px;
+    margin-left: 165px;
+    margin-top: 122px;
+}
+
+#city p{
+    color: #939CAA;
+    font-family: 'Lexend Deca';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    width: 445px;
+    margin-top: 120px;
+}
+
+.messageus-cta a{
+    width: 180px;
+    height: 53px;
+    background: #FCB72B;
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    font-family: 'Space Mono';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    text-decoration: none;
+    padding-inline: 36px;
+    margin-left: 100px;
+    margin-top: 144px;
+}
+
+.messageus-cta a:hover{
+    background: #fff;
+    border:3px solid #FCB72B;
+    color: #FCB72B;
+}
+
+
+#footer-top{
+    min-width: 100%;
+    height: 300px;
+    background: #495567;
+    margin-top: 120px;
+    position: relative;
+}
+
+#first{
+    display: flex;
+    align-items: center;
+    gap:336px;
+}
+
+#first h2{
+    color: #FFF;
+    font-family: 'Space Mono';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; 
+    letter-spacing: -2.143px;
+    width: 415px;
+    padding-block: 102px;
+    margin-left: 165px;
+}
+
+.get-it{
+    display: flex;
+    align-items: center;
+    gap:18px;
+}
+
+.apple{
+    width: 159px;
+    height: 56px;
+    border-radius: 4px;
+    background: #E5ECF4;
+    display: flex;
+}
+
+.apple img{
+    padding-block: 14px;
+    padding-inline: 14px;
+}
+
+.apple p{
+    color: #495567;
+    font-family: 'Space Mono';
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.446px;
+    padding-top: 8px;
+}
+
+#as{
+    color: #495567;
+    font-family: 'Space Mono';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; 
+    letter-spacing: -0.893px;
+    text-decoration: none;
+}
+
+
+.google{
+    width: 182px;
+    height: 56px;
+    border-radius: 4px;
+    background: #E5ECF4;
+    display: flex;
+}
+
+.google img{
+    padding-block: 14px;
+    padding-inline: 14px;
+}
+
+.google p{
+    color: #495567;
+    font-family: 'Space Mono';
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.446px;
+    padding-top: 8px;
+}
+
+#gp{
+    color: #495567;
+    font-family: 'Space Mono';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.893px;
+    text-decoration: none;
+}
+
+.mask3{
+    position: absolute;
+    bottom:0px;
+    left:450px;
+}
+
+.mask2{
+    position: absolute;
+    bottom: 0px;
+    left:853px;
+}
+
+.mask1{
+    position: absolute;
+    bottom: 0px;
+    left:1256px;
+}
+
+
+#footer-bottom{
+    min-width: 100%;
+    height: 96px;
+    background: #333A44;
+}
+
+#second{
+    display: flex;
+    margin-left: 169px;
+}
+
+#bottom-logo img{
+    margin-top: 35px;
+}
+
+#bottom-links ul{
+    display: flex;
+    gap:32px;
+    margin-left: 58px;
+    margin-block: 36px;
+    list-style: none;
+}
+
+#bottom-links li a{
+    text-decoration: none;
+    color: #939CAA;
+    font-family: 'Space Mono';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px; 
+}
+
+#bottom-links li a:hover{
+    color: #FCB72B;
+}
+
+#socials{
+    margin-left: 571px;
+    margin-block: 36px;
+}
+
+#socials a svg #facebook{
+    fill:#FCB72B;
+}
+
+#socials a svg #facebook:hover{
+    fill:#E5ECF4;
+}
+
+#socials a svg #twitter{
+    fill:#FCB72B;
+}
+
+#socials a svg #twitter:hover{
+    fill:#E5ECF4;
+}
+
+#socials a svg #instagram{
+    fill:#FCB72B;
+}
+
+#socials a svg #instagram:hover{
+    fill:#E5ECF4;
+}
+
+@media all and (min-width:2100px) {
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    html{
+        height: 100vh;
+        overflow-x: hidden;
+    }
+    
+    body{
+        min-width: 100%;
+    }
+
+    nav{
+        margin-left: 250px;
+        position: relative;
+    }
+
+    #links ul{
+        margin-left: 158px;
+    }
+
+    .getscootin-cta a{
+        position: absolute;
+        left: 850px;
+    }
+
+    #links ul{
+        margin-left: 100px;
+    }
+
+
+    #main .overlay{
+        position: relative;
+    }
+
+    .overlay h1{
+        margin-left: 250px;
+    }
+
+    .overlay img{
+        position: absolute;
+        left:1900px;
+    }
+
+    #map{
+        margin-left: 490px;
+    }
+
+    #city{
+        position: relative;
+    }
+
+    #city p{
+        margin-left: 160px;
+    }
+
+    #city h2{
+        margin-left: 250px;
+    }
+
+    .messageus-cta a{
+        position: absolute;
+        left: 1500px;
+        bottom:20px;
+    }
+
+    #footer-top{
+        position: relative;
+    }
+
+    #first{
+        gap:750px;
+        position: relative;
+    }
+
+    #first h2{
+        margin-left: 250px;
+    }
+
+    .mask3{
+        margin-left: 450px;
+    }
+
+    .mask2{
+        margin-left: 500px;
+    }
+
+    .mask1{
+        margin-left: 615px;
+    }
+    
+    #second{
+        margin-left: 250px;
+    }
+
+    #bottom-links ul{
+        margin-left: 158px;
+    }
+
+    #socials{
+        margin-left: 900px;
+    }
+}
+
+
+@media all and (min-width:1500px) {
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    html{
+        height: 100vh;
+        overflow-x: hidden;
+    }
+    
+    body{
+        min-width: 100%;
+    }
+
+    .getscootin-cta a{
+        margin-left: 500px;
+    }
+
+    #links ul{
+        margin-left: 100px;
+    }
+
+
+    #main .overlay{
+        gap:820px;
+    }
+
+    #city{
+        gap:30px;
+    }
+
+
+    #footer-top{
+        position: relative;
+    }
+
+    .mask2{
+        position: absolute;
+        left:890px;
+    }
+
+    .mask1{
+        position: absolute;
+        left:1295px;
+    }
+    
+}
+
+@media all and (max-width:768px){
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    html{
+        overflow-x: hidden;
+    }
+    
+    body{
+        min-width: 100%;
+    }
+
+    nav{
+        margin-left: 39px;
+    }
+    
+    .getscootin-cta a{
+        margin-left: 94px;
+    }
+
+    #main .overlay{
+        width: 768px;
+        display: flex;
+        align-items: center;
+        gap: 179px;
+    }
+
+    .overlay h1{
+        margin-left: 97px;
+    }
+
+    #map{
+        width: 689px;
+        height: 337px;
+        margin-left: 39px;
+        position: relative;
+    }
+
+    .new-york{
+        position: absolute;
+        left:98px;
+        right:471;
+        top:52px;
+        bottom:245px;
+    }
+
+    .new-york h4{
+        font-size: 13px;
+        padding-block: 2px;
+        padding-inline: 30px;
+        text-align: center;
+        position: absolute;
+        top:2px;
+    }
+
+    .new-york img{
+        width: 120px;
+        height: 40px;
+    }
+
+    .london{
+        position: absolute;
+        left:243px;
+        right:326px;
+        top:25px;
+        bottom:272px;
+    }
+
+    .london h4{
+        font-size: 13px;
+        padding-block: 2px;
+        padding-inline: 38px;
+        text-align: center;
+        position: absolute;
+        top:2px;
+    }
+
+    .london img{
+        width: 120px;
+        height: 40px;
+    }
+
+    .yokohama{
+        position: absolute;
+        left:530px;
+        right:39px;
+        top:65px;
+        bottom:232px;
+    }
+
+    .yokohama h4{
+        font-size: 13px;
+        padding-block: 2px;
+        padding-inline: 30px;
+        text-align: center;
+        position: absolute;
+        top:2px;
+    }
+
+    .yokohama img{
+        width: 120px;
+        height: 40px;
+    }
+
+    .jakarta{
+        position: absolute;
+        left:480px;
+        right:89px;
+        top:169px;
+        bottom:128px;
+    }
+
+    .jakarta h4{
+        font-size: 13px;
+        padding-block: 2px;
+        padding-inline: 34px;
+        text-align: center;
+        position: absolute;
+        top:2px;
+    }
+
+    .jakarta img{
+        width: 120px;
+        height: 40px;
+    }
+
+    #city{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    #city h2{
+        margin-top: 64px;
+        width: 457px;
+        margin-inline: 155px;
+        text-align: center;
+    }
+
+    #city p{
+        width: 573px;
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .messageus-cta a{
+        width: 180px;
+        height: 53px;
+        margin-top: 0;
+        margin-inline: 294px;
+    }
+
+    #footer-top{
+        position: relative;
+    }
+
+    #first{
+        display: flex;
+        flex-direction: column;
+        gap:0px
+    }
+
+    #first h2{
+        width: 457px;
+        text-align: center;
+        margin-inline: 155px;
+        padding-top: 62px;
+    }
+
+    .get-it{
+       position: absolute;
+       top:198px;
+    }
+
+    .apple{
+        width: 114px;
+        height: 40px;
+    }
+
+    .apple img{
+        padding-block: 6px;
+        padding-inline: 6px;
+    }
+
+    .apple p{
+        font-size: 8px;
+        padding-top: 4px;
+    }
+
+    #as{
+        font-size: 15px;
+    }
+
+    .google{
+        width: 130px;
+        height: 40px;
+    }
+
+    .google img{
+        padding-block: 8px;
+        padding-inline: 8px;
+    }
+
+    .google p{
+        padding-top: 2px;
+    }
+
+    #gp{
+        font-size: 15px;
+    }
+
+    .mask3{
+        position: absolute;
+        left:-192px;
+    }
+
+    .mask2{
+        position: absolute;
+        left:181px;
+    }
+
+    .mask1{
+        position: absolute;
+        left:584px;
+    }
+
+    #second{
+        margin-left: 39px;
+    }
+
+    #socials{
+        margin-left: 153px;
+    }
+}
+
+@media all and (max-width:375px){
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    html{
+        overflow-x: hidden;
+    }
+    
+    body{
+        min-width: 100%;
+    }
+
+    .icon{
+        display: flex;
+        margin-block: 24px;
+        cursor: pointer;
+    }
+
+    #logo img{
+        margin-block: 22px;
+        width: 76px;
+        height: 20px;
+    }
+
+    nav{
+        display: flex;
+        gap:98px;
+    }
+
+    #links ul{
+        display: none;
+    }
+
+    .getscootin-cta a{
+        display: none;
+    }
+
+    #main .overlay{
+        margin-top: 22px;
+    }
+
+    .overlay h1{
+        width: 311px;
+        text-align: center;
+        font-size: 40px;
+        line-height: 40px;
+        letter-spacing: -1.786px;
+        margin-block: 60px;
+        margin-inline: 32px;
+    }
+
+    #map{
+        margin-top: 72px;
+        margin-inline: 32px;
+        width: 311px;
+        height: 152px;
+    }
+
+    .new-york img{
+        display: none;
+    }
+
+    .new-york .oval{
+        display: block;
+        width: 16px;
+        height: 16px;
+        position: absolute;
+        bottom: 3px;
+        right:20px;
+    }
+
+    .london .oval{
+        display: block;
+        width: 16px;
+        height: 16px;
+        position: absolute;
+        right:98px;
+        bottom:-13px;
+    }
+
+    .yokohama .oval{
+        display: block;
+        width: 16px;
+        height: 16px;
+        position: absolute;
+        left: -270px;
+        bottom: 10px;
+    }
+
+    .jakarta .oval{
+        display: block;
+        width: 16px;
+        height: 16px;
+        position: absolute;
+        left:-240px;
+        bottom:67px;
+    }
+
+    .london img{
+        display: none;
+    }
+
+    .yokohama img{
+        display: none;
+    }
+
+    .jakarta img{
+        display: none;
+    }
+
+    .new-york h4{
+        margin-top: 140px;
+        text-align: center;
+        font-size: 24px;
+        line-height: 28px;
+        width: 311px;
+        height: 72px;
+        background: rgba(252, 183, 43, 0.15);
+        padding-inline: 100px;
+        padding-block: 22px;
+        position:absolute;
+        left:-100px;
+    }
+
+    .london h4{
+        margin-top: 260px;
+        text-align: center;
+        font-size: 24px;
+        line-height: 28px;
+        width: 311px;
+        height: 72px;
+        background: rgba(252, 183, 43, 0.15);
+        padding-inline: 114px;
+        padding-block: 22px;
+        position:absolute;
+        left:-244px;
+    }
+
+    .jakarta h4{
+        margin-top: 205px;
+        text-align: center;
+        font-size: 24px;
+        line-height: 28px;
+        width: 311px;
+        height: 72px;
+        background: rgba(252, 183, 43, 0.15);
+        padding-inline: 107px;
+        padding-block: 22px;
+        position:absolute;
+        left:-479px;
+    }
+
+    .yokohama h4{
+        margin-top: 400px;
+        text-align: center;
+        font-size: 24px;
+        line-height: 28px;
+        width: 311px;
+        height: 72px;
+        background: rgba(252, 183, 43, 0.15);
+        padding-inline: 100px;
+        padding-block: 22px;
+        position:absolute;
+        left:-529px;
+    }
+
+    #city{
+        display: flex;
+        flex-direction: column;
+        gap:32px;
+    }
+
+    #city h2{
+        margin-top: 448px;
+        width: 311px;
+        color: #495567;
+        text-align: center;
+        font-size: 32px;
+        margin-inline: 32px;
+        line-height: 32px;
+        letter-spacing: -1.429px;
+    }
+    #city p{
+        width: 311px;
+        color: #939CAA;
+        text-align: center;
+        margin-inline: 32px;
+    }
+
+    .messageus-cta a{
+        width: 180px;
+        height: 53px;
+    }
+
+    #footer-top{
+        margin-top: 72px;
+        height:320px;
+        position: relative;
+    }
+
+    #first{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #first h2{
+        width: 311px;
+        text-align: center;
+        font-size: 32px;
+        line-height: 32px;
+        letter-spacing: -1.429px;
+    }
+
+    .get-it{
+        position: absolute;
+        top:192px;
+    }
+
+    .mask3{
+        position: absolute;
+        left:-400px;
+    }
+
+    .mask2{
+        position: absolute;
+        left:-200px;
+    }
+
+    .mask1{
+        position: absolute;
+        left:199px;
+    }
+
+    #footer-bottom{
+        height: 438px;
+    }
+
+    #second{
+        display: flex;
+        flex-direction: column;
+        margin-left: 133px;
+    }
+
+    #bottom-logo{
+        margin-top: 64px;
+    }
+
+    #bottom-links ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap:16px;
+        margin-left: 10px;
+    }
+
+    #bottom-links li a#one{
+       margin-left: 18px;
+    }
+
+    #bottom-links li a#two{
+        margin-left: 4px;
+     }
+
+     #bottom-links li a#three{
+        margin-left: 9px;
+     }
+
+    #socials{
+        margin-left: 0px;
+    }
+}
+
+

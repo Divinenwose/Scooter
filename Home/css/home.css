@@ -1,0 +1,1478 @@
+ *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    height: 100vh;
+}
+
+body{
+    min-width: 100%;
+    overflow-x: hidden;
+}
+
+nav{
+    background: #fff;
+    display: flex;
+}
+
+.bar{
+    display: none;
+}
+
+#logo img{
+    margin-block: 32px;
+    margin-left: 169px;
+}
+
+#links ul{
+    display: flex;
+    gap:32px;
+    margin-left: 58px;
+    margin-block: 36px;
+    list-style: none;
+}
+
+#links li a{
+    text-decoration: none;
+    color: #939CAA;
+    font-family: 'Space Mono';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+}
+
+#links li a:hover{
+    color: #FCB72B;
+}
+
+.getscootin-cta a{
+    width: 180px;
+    height: 53px;
+    background: #FCB72B;
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    font-family: 'Space Mono';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    text-decoration: none;
+    padding-inline: 36px;
+    margin-left: 555px;
+    margin-top: 22px;
+}
+
+.getscootin-cta a:hover{
+    background: #fff;
+    border:3px solid #FCB72B;
+    color: #FCB72B;
+}
+
+#main .overlay{
+    margin-top: 21px;
+    min-width: 100%;
+    height: 650px;
+    background-image:linear-gradient(rgba(47,59,89,0.75),rgba(47,59,89,0.75)),url(/Home/images/Bitmap.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+
+.overlay h1{
+    width: 500px;
+    color: #FFF;
+    font-family: 'Space Mono';
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: -2.5px;
+    margin-left: 165px;
+}
+
+.overlay p{
+    width: 405px;
+    color: #FFF;
+    font-family: 'Lexend Deca';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    margin-left: 260px;
+    margin-top: 40px;
+}
+
+.overlay .button a{
+    width: 180px;
+    height: 53px;
+    background: #FCB72B;
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    font-family: 'Space Mono';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    text-decoration: none;
+    padding-inline: 36px;
+    margin-left: 260px;
+    margin-top: 50px;
+}
+
+.overlay .button a:hover{
+    background: transparent;
+    border:3px solid #FCB72B;
+    color: #FCB72B;
+}
+
+.path2{
+    position: absolute;
+    bottom:290px;
+}
+
+.path4{
+    position: absolute;
+    left:678px;
+    bottom:160px;
+}
+
+.group26{
+    position: absolute;
+    left:1140px;
+    bottom: 170px;
+}
+
+.flex{
+    margin-left: 165px;
+    margin-top: 160px;
+    display: flex;
+    position: relative;
+}
+
+.images{
+    display: flex;
+    flex-direction: column;
+}
+
+.images img{
+    width: 96px;
+    height: 96px;
+}
+
+.flex h4{
+    width: 350px;
+    color: #495567;
+    font-family: 'Space Mono';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -1.071px;
+    margin-top: 40px;
+}
+
+.flex p{
+    width: 350px;
+    color: #939CAA;
+    font-family: 'Lexend Deca';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; 
+    margin-top: 27px;
+}
+
+.pick{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.pick img{
+    width: 96px;
+    height: 96px;
+}
+
+.enjoy{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.enjoy img{
+    width: 96px;
+    height: 96px;
+}
+
+.two{
+    position: absolute;
+    left:-180px;
+    top:42px;
+    z-index: -1;
+}
+
+#one{
+    position: relative;
+}
+
+#grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:105px;
+}
+
+.first{
+    margin-top: 256px;
+    margin-left: 165px;
+}
+
+.first h2{
+    color: #495567;
+    font-family: 'Space Mono';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2.143px;
+    width: 445px;
+}
+
+.first p{
+    color: #939CAA;
+    font-family: 'Lexend Deca';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; 
+    width: 445px;
+    margin-top: 24px;
+}
+
+.first .button a{
+    width: 180px;
+    height: 53px;
+    background: #FCB72B;
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    font-family: 'Space Mono';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    text-decoration: none;
+    padding-inline: 36px;
+    margin-top: 40px;
+}
+
+.first .button a:hover{
+    background: transparent;
+    border:3px solid #FCB72B;
+    color: #FCB72B;
+}
+
+.second{
+    margin-top: 147px;
+    position: relative;
+}
+
+.second img{
+border-radius: 50%;
+}
+
+.mask{
+    width: 445px;
+    height: 445px;
+    border-radius: 445px;
+    background: #E5ECF4;
+    position: absolute;
+    bottom:5px;
+    right: -340px;
+}
+
+.path-four{
+    position: absolute;
+    right:0px;
+    bottom: 0px;
+}
+
+#two{
+    position: relative;
+}
+
+#grid-two{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:165px;
+}
+
+#grid-two .first img{
+    border-radius: 50%;
+}
+
+
+#grid-two .second h2{
+    color: #495567;
+    font-family: 'Space Mono';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2.143px;
+    width: 445px;
+    margin-top: 220px;
+}
+
+#grid-two .second p{
+    color: #939CAA;
+    font-family: 'Lexend Deca';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    width: 445px;
+    margin-top: 24px;
+}
+
+#grid-two .second .button a{
+    width: 180px;
+    height: 53px;
+    background: #FCB72B;
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    font-family: 'Space Mono';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    text-decoration: none;
+    padding-inline: 36px;
+    margin-top: 40px;
+}
+
+#grid-two .second .button a:hover{
+    background: transparent;
+    border:3px solid #FCB72B;
+    color: #FCB72B;
+}
+
+.group13{
+    position: absolute;
+    bottom:290px;
+    left:-380px;
+}
+
+#two .mask{
+    position: absolute;
+    left:-350px;
+    width: 445px;
+    height: 445px;
+    border-radius: 445px;
+    background: #E5ECF4;
+}
+
+#three{
+    position: relative;
+}
+
+#grid-three{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+}
+
+.group17{
+    position: absolute;
+    right:-280px;
+    bottom:230px;
+    z-index: 1;
+}
+
+#footer-top{
+    min-width: 100%;
+    height: 300px;
+    background: #495567;
+    margin-top: 178px;
+    position: relative;
+}
+
+#top{
+    display: flex;
+    align-items: center;
+}
+
+#top-text h2{
+    color: #FFF;
+    font-family: 'Space Mono';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; 
+    letter-spacing: -2.143px;
+    width: 415px;
+    padding-block: 102px;
+    margin-left: 165px;
+}
+
+#stores{
+    display: flex;
+    align-items: center;
+    gap:18px;
+    margin-left: 336px;
+}
+
+.apple{
+    width: 159px;
+    height: 56px;
+    border-radius: 4px;
+    background: #E5ECF4;
+    display: flex;
+}
+
+.apple img{
+    padding-block: 14px;
+    padding-inline: 14px;
+}
+
+.apple p{
+    color: #495567;
+    font-family: 'Space Mono';
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.446px;
+    padding-top: 8px;
+}
+
+#as{
+    color: #495567;
+    font-family: 'Space Mono';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; 
+    letter-spacing: -0.893px;
+}
+
+
+.google{
+    width: 182px;
+    height: 56px;
+    border-radius: 4px;
+    background: #E5ECF4;
+    display: flex;
+}
+
+.google img{
+    padding-block: 14px;
+    padding-inline: 14px;
+}
+
+.google p{
+    color: #495567;
+    font-family: 'Space Mono';
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.446px;
+    padding-top: 8px;
+}
+
+#gp{
+    color: #495567;
+    font-family: 'Space Mono';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.893px;
+}
+
+.mask3{
+    position: absolute;
+    bottom:0px;
+    left:450px;
+}
+
+.mask2{
+    position: absolute;
+    bottom: 0px;
+    left:853px;
+}
+
+.mask1{
+    position: absolute;
+    bottom: 0px;
+    left:1256px;
+}
+
+
+#footer-bottom{
+    min-width: 100%;
+    height: 96px;
+    background: #333A44;
+}
+
+#bottom{
+    display: flex;
+    margin-left: 169px;
+    position: relative;
+}
+
+#bottom-logo img{
+    margin-top: 35px;
+}
+
+#bottom-links ul{
+    display: flex;
+    gap:32px;
+    margin-left: 58px;
+    margin-block: 36px;
+    list-style: none;
+}
+
+#bottom-links li a{
+    text-decoration: none;
+    color: #939CAA;
+    font-family: 'Space Mono';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px; 
+}
+
+#bottom-links li a:hover{
+    color: #FCB72B;
+}
+
+#socials{
+    margin-left: 571px;
+    margin-block: 36px;
+}
+
+#socials a svg #facebook{
+    fill:#FCB72B;
+}
+
+#socials a svg #facebook:hover{
+    fill:#E5ECF4;
+}
+
+#socials a svg #twitter{
+    fill:#FCB72B;
+}
+
+#socials a svg #twitter:hover{
+    fill:#E5ECF4;
+}
+
+#socials a svg #instagram{
+    fill:#FCB72B;
+}
+
+#socials a svg #instagram:hover{
+    fill:#E5ECF4;
+}
+
+@media all and (min-width:2100px) {
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    html{
+        height: 100vh;
+        overflow-x: hidden;
+    }
+    
+    body{
+        width: 100%;
+    }
+
+    #logo img{
+        margin-left: 250px;
+    }
+
+    #links ul{
+        margin-left: 100px;
+    }
+
+    .getscootin-cta a{
+        margin-left: 1100px;
+    }
+
+    .overlay{
+        position: relative;
+    }
+
+    .overlay h1{
+        margin-left: 250px; 
+    }
+
+    .overlay p{
+        margin-left: 320px;
+    }
+
+    .path2{
+        position: absolute;
+        left:0px;
+    }
+
+    .path4{
+        position: absolute;
+        left:850px;
+    }
+
+    .group26{
+       margin-left: 610px;
+    }
+
+    .flex{
+        margin-left: 183px;
+        position: relative; 
+    }
+
+    #one{
+        position: relative;
+    }
+
+    .first{
+        margin-left: 200px;
+    }
+
+    .mask{
+        position: absolute;
+        bottom:5px;
+        right: -300px;
+    }
+
+    .second img{
+        margin-left: 300px;
+    }
+
+    #grid-two .second{
+        margin-left: 370px;
+    }
+
+    #footer-top{
+        position: relative;
+    }
+
+    #top-text h2{
+        margin-left: 200px;
+    }
+
+    #stores{
+        margin-left: 850px;
+    }
+
+    .mask1{
+        margin-left: 620px;
+    }
+
+    .mask2{
+        margin-left: 590px;
+    }
+
+    .mask3{
+        margin-left: 490px;
+    }
+
+    #bottom{
+        margin-left: 200px;
+    }
+
+    #bottom-links ul{
+        margin-left: 100px;
+    }
+
+    #socials{
+        margin-left: 920px;
+    }
+
+}
+
+
+@media all and (min-width:1500px){
+    body{
+        margin:0 auto;
+        padding: 0 0;
+    }
+
+    .overlay{
+        position: relative;
+    }
+
+    .group26{
+        position: absolute;
+        left:1290px;
+    }
+
+    #grid{
+        gap:220px;
+    }
+    .second{
+        position: relative;
+    }
+
+    .path-four{
+        position: absolute;
+        right:0px;
+    }
+
+    #three{
+        position: relative;
+    }
+
+    #grid-three{
+        gap:200px;
+    }
+
+    .group17{
+        position: absolute;
+        right:-330px;
+    }
+
+
+    #footer-top{
+        position: relative;
+    }
+
+    .mask1{
+        position: absolute;
+        left:1299px;
+    }
+}
+
+@media all and (max-width:739px){
+    #two{
+        position: relative;
+    }
+
+    .group13{
+        position: absolute;
+        left:-410px;
+    }
+
+}
+
+
+@media all and (max-width:768px) {
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    html{
+        height:100vh;
+        overflow-x: hidden;
+    }
+
+    body{
+        width:100%;
+    }
+
+    nav{
+        background: #fff;
+        display: flex;
+        max-width:768px;
+        margin:0px 0px;
+    }
+
+    #logo img{
+        margin-left: 39px;
+    }
+
+    .getscootin-cta a{
+        margin-block: 22px;
+        margin-left: 94px;
+    }
+
+    #main .overlay{
+        width:100%;
+        height: 650px;
+        background-image:linear-gradient(rgba(47,59,89,0.75),rgba(47,59,89,0.75)),url(/Home/images/Bitmap.png);
+        background-position: 100%;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+    }
+    .overlay h1{
+        width:573px;
+        text-align: center;
+        margin-inline: 98px;
+    }
+
+    .overlay p{
+        width: 573px;
+        margin-inline: 98px;
+        text-align: center;
+        margin-top: 24px;
+    }
+    
+    .overlay .button a{
+        margin-inline:294px;
+        margin-top: 32px;
+    }
+
+    .path2{
+        position:absolute;
+        right:1000px;
+    }
+    .path4{
+        position: absolute;
+        left:-90px;
+        top:473px;
+    }
+    .group26{
+        position: absolute;
+        left:575px;
+        bottom: 40px;
+    }
+
+    #info .flex{
+        display: flex;
+        flex-direction: column;
+        margin-left: 97px;
+        margin-top: 122px;
+        gap:74px;
+        position: relative;
+    }
+
+    .flex .images{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap:79px;
+    }
+
+    .flex .pick{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap:79px;
+        margin: 0;
+    }
+
+    .flex .enjoy{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap:79px;
+        margin: 0;
+    }
+
+    .flex p{
+        width: 398px;
+    }
+
+    .two{
+        position: absolute;
+        transform: rotate(90deg);
+        left:-439px;
+    }
+
+    #one #grid{
+        margin-top: 684px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    #grid .second{
+       position: absolute;
+       bottom: 450px;
+       right:190px;
+    }
+
+    .mask{
+        position: absolute;
+        left:510px;
+    }
+
+    .path-four{
+        position:absolute;
+        bottom:450px;
+    }
+
+    #grid .first{
+        display: flex;
+        flex-direction: column;
+        gap:40px;
+        margin: 0px;
+    }
+
+    #grid .first h2{
+        width: 457px;
+        text-align: center;
+        margin-inline: 155px;
+        margin-top:0px;
+    }
+
+    #grid .first p{
+        width: 573px;
+        text-align: center;
+        margin-inline: 98px;
+    }
+
+    #grid .first .button a{
+       margin-inline: 294px;
+    }
+    
+    #two{
+        margin-top: 4px;
+    }
+
+    #two #grid-two{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #grid-two .first img{
+        position:absolute;
+        bottom:400px;
+        right:160px;
+    }
+
+    #two .mask{
+        position: absolute;
+        bottom: 400px;
+    }
+
+    .group13{
+        position: absolute;
+        bottom:680px;
+    }
+
+    #grid-two .second h2{
+        width: 457px;
+        text-align: center;
+        margin-inline: 155px;
+    }
+
+    #grid-two .second p{
+        text-align: center;
+        width: 573px;
+        margin-inline: 98px;
+        margin-top: 40px;
+    }
+    .button a{
+        margin-inline: 294px;
+        margin-top: 40px;
+    }
+
+
+    #three #grid-three{
+        margin-top: 670px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #grid-three .second{
+        position: absolute;
+        bottom: 430px;
+        right:150px;
+     }
+
+     #three .mask{
+        position: absolute;
+        bottom: 400px;
+        left:670px;
+     }
+
+    #three .group17{
+        position: absolute;
+        bottom: 640px;
+        left:440px;
+    }
+
+    #grid-three .first{
+        display: flex;
+        flex-direction: column;
+        gap:40px;
+        margin: 0;
+    }
+
+    #grid-three .first h2{
+        width: 457px;
+        text-align: center;
+        margin-inline: 155px;
+    }
+
+    #grid-three .first p{
+        width: 573px;
+        text-align: center;
+        margin-inline: 98px;
+    }
+
+    #footer-top{
+        margin-top: 104px;
+        width: 1000px;
+        height: 300px;
+        background: #495567;
+        position: relative;
+    }
+
+    #footer-top #top{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+    }
+
+    #stores{
+        position: absolute;
+        top:220px;
+        left:-120px;
+    }
+
+
+    #top-text h2{
+        width: 457px;
+        text-align: center;
+        margin-inline: 155px;
+    }
+
+    .mask3 {
+        position: absolute;
+        left:-130px;
+    }
+
+    .mask2{
+        position: absolute;
+        left:250px;
+    }
+
+    .mask1{
+        position: absolute;
+        left:640px;
+    }
+    
+    #footer-bottom{
+        width: 1000px;
+    }
+
+    #bottom{
+        margin-left: 39px;
+    }
+
+    #socials{
+        margin-left: 153px;
+    }
+
+}
+
+@media screen and (max-width:375px) {
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    html{   
+        overflow-x: hidden;
+    }
+
+    body{
+        min-width: 100%;
+    }
+
+    nav{
+        margin-left: 32px;
+        display: flex;
+        gap:32px;
+        align-items: center;
+    }
+
+    #logo img{
+        width: 76px;
+        height: 20px;
+    }
+
+    .bar{
+        display: block;
+        cursor: pointer;
+    }
+
+    #links{
+        display:none;
+    }
+    
+    .getscootin-cta a{
+        display: none;
+    }
+
+
+    #main .overlay{
+        width:100%;
+        height: 650px;
+        background-image:linear-gradient(rgba(47,59,89,0.75),rgba(47,59,89,0.75)),url(/Home/images/Bitmap.png);
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size:cover;
+        display: flex;
+        flex-direction: column;
+        gap: 23px;
+    }
+
+    .overlay h1{
+        font-size: 40px;
+        line-height: 40px;
+        letter-spacing: -1.786px;
+        width: 311px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .overlay p{
+        margin: 0 auto;
+        width: 311px;
+        text-align: center;
+    }
+
+    .overlay .button a{
+        margin: 0 auto;
+        width: 180px;
+        height: 53px;
+    }
+    
+    .path4{
+        position: absolute;
+        left:-300px;
+    }
+
+
+    .flex{
+        display: flex;
+        flex-direction: column;
+        padding-right:100px;
+        margin-top: 120px;
+    }
+
+    .flex img{
+        width: 56px;
+        height: 56px;
+    }
+
+    .flex .images{
+        display: flex;
+        flex-direction: column;
+        gap:24px;
+    }
+
+
+    .flex .pick{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap:24px;
+    }
+
+    .flex .enjoy{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap:24px;
+    } 
+
+    .flex h4{
+        width: 311px;
+        margin: 24px auto;
+        text-align: center;
+    }
+
+    .flex p{
+        width: 311px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .two{
+        display: none;
+    }
+
+    #one #grid{
+        margin-top: 483px;
+        position: relative;
+    }
+
+    #grid .second{
+        position: absolute;
+        right:40px;
+        bottom: 412px;
+    }
+
+    #grid .second img{
+        width: 302px;
+        height: 300px;
+    }
+
+    .path-four{
+        position: absolute;
+        bottom:410px;
+        left:30px;
+    }
+
+    #grid .first{
+        display: flex;
+        flex-direction: column;
+        gap:32px;
+        margin: 0;
+    }
+
+    #grid .first h2{
+        width: 311px;
+        font-size: 32px;
+        margin: 0 auto;
+        line-height: 32px;
+        letter-spacing: -1.429px;
+    }
+
+    
+    #grid .first p{
+        width: 311px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    #grid .first .button a{
+        width: 180px;
+        height: 53px;
+        margin: 0 auto;
+    }
+
+    #two{
+        position: relative;
+    }
+
+    #two #grid-two{
+        position: relative;
+        gap:0;
+    }
+
+    #grid-two .first img{
+        width: 302px;
+        height: 300px;
+        position: absolute;
+        right:42px;
+        bottom: 380px;
+    }
+
+    #two .mask{
+        display: none;
+    }
+
+    .group13{
+        position: absolute;
+        top:90px;
+        left:-480px;
+    }
+
+    #grid-two .second h2{
+        width: 311px;
+        font-size: 32px;
+        margin-top: 32px;
+        margin-inline: auto;
+        line-height: 32px;
+        letter-spacing: -1.429px;
+    }
+
+    
+    #grid-two .second p{
+        width: 311px;
+        text-align: center;
+        margin-top: 32px;
+        margin-inline: auto;
+    }
+
+    #grid-two .second .button a{
+        width: 180px;
+        height: 53px;
+        margin-top: 32px;
+        margin-inline: auto;
+    }
+
+    #three{
+        position: relative;
+    }
+
+    #three #grid-three{
+        position: relative;
+        margin-top: 120px;
+    }
+
+    #grid-three .second img{
+        width: 302px;
+        height: 300px;
+        position: absolute;
+        right:-112px;
+        bottom: -30px;
+    }
+
+    #two .mask{
+        display: none;
+    }
+
+    .group13{
+        position: absolute;
+        bottom:580px;
+        left:-480px;
+    }
+
+    #grid-three .first{
+        display: flex;
+        flex-direction: column;
+        gap:32px;
+        margin-top: 380px;
+    }
+
+    #grid-three .first h2{
+        width: 311px;
+        font-size: 32px;
+        margin-inline:auto;
+        line-height: 32px;
+        letter-spacing: -1.429px;
+    }
+
+    
+    #grid-three .first p{
+        width: 311px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    #grid-three .first .button a{
+        width: 180px;
+        height: 53px;
+        margin: 0 auto;
+    }
+
+    #three .group17{
+        position: absolute;
+        left:130px;
+        bottom: 530px;
+    }
+
+    #footer-top{
+        margin-top: 120px;
+        height:328px;
+    }
+
+
+    #footer-top #top h2{
+        width: 311px;
+        margin: 0 32px;
+        text-align: center;
+        font-size: 32px;
+        line-height: 32px;
+        letter-spacing: -1.429px;
+    }
+
+    #stores{
+        margin-left: 150px;
+        display: flex;
+        align-items: center; 
+    }
+
+    .apple{
+        width: 140px;
+        height: 40px;
+        padding: 0;
+    }
+
+    .apple img{
+        padding-block: 8px;
+    }
+
+    .apple p{
+        font-size: 8px;
+    }
+
+    #as{
+        font-size: 15px;
+        line-height: 20px;
+        letter-spacing: -1.429px;
+    }
+
+    .google{
+        width: 140px;
+        height: 40px;
+        padding: 0;
+    }
+
+    .google img{
+        padding-block: 8px;
+    }
+
+    .google p{
+        font-size: 8px;
+    }
+
+    #gp{
+        font-size: 15px;
+        line-height: 20px;
+        letter-spacing: -1.429px;
+    }
+
+    .mask3{
+        display: none;
+    }
+
+    .mask2{
+        position: absolute;
+        left:-220px;
+    }
+
+    .mask1{
+        position: absolute;
+        left:190px;
+    }
+
+    #footer-bottom{
+        width: 375px;
+        height: 438px;
+    }
+
+    #bottom{
+      display: flex;
+      flex-direction: column;
+      gap:41px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    #bottom-logo{
+        margin-top: 64px;
+    }
+
+    #bottom-links ul{
+        display: flex;
+        flex-direction: column;
+        gap:16px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    #socials{
+        margin-inline:auto;
+    }
+
+}
