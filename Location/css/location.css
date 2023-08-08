@@ -79,11 +79,11 @@ nav{
     margin-top: 33px;
     min-width: 100%;
     height: 200px;
-    background-image:linear-gradient(rgba(47,59,89,0.75),rgba(47,59,89,0.75)),url(/Location/images/Bitmap\ 2.png);
+    background-image:linear-gradient(rgba(47,59,89,0.75),rgba(47,59,89,0.75)),url(../images/Bitmap\ 2.png);
     background-size: cover;
     display: flex;
     align-items: center;
-    gap:695px;
+    gap:700px;
 }
 
 .overlay h1{
